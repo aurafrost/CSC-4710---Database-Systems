@@ -1,0 +1,9 @@
+CREATE TABLE `mydb`.`tbl_service` (
+	service_id  int(11) AUTO_INCREMENT,
+	name varchar(255) NOT NULL,
+	labor_hour double NOT NULL,
+	part_cost double NOT NULL,
+	rate_id int(11) NOT NULL,
+	PRIMARY KEY(service_id),
+	FOREIGN KEY(rate_id) references tbl_rate(rate_id)
+);

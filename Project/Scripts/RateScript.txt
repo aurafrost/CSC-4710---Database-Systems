@@ -1,0 +1,5 @@
+CREATE TABLE `mydb`.`tbl_rate` (
+	rate_id  int(11) AUTO_INCREMENT,
+	labor_cost_per_hour double NOT NULL,
+	PRIMARY KEY(rate_id)
+);

@@ -1,0 +1,25 @@
+1,"oil change",0,30,4
+2,"tire rotation",0,10,4
+3,"tire balance",0,30,4
+4,"tire rotation & balance",0,35,4
+5,alignment,0.8,0,3
+6,"A/C inspection",0.5,0,1
+7,"A/C repair",4,0,1
+8,"A/C add Freon",0,79,4
+9,"small tire replace",0,80,4
+10,"large tire replace",0,150,4
+11,"engine inspection",1,0,1
+12,"engine repair",5,500,3
+13,"transmission flush",1,65,1
+14,"transmission inspection",1.2,0,1
+15,"transmission repair",7,300,1
+16,"engine tune up",0,599,4
+17,"break pads replace",0.5,40,2
+18,"break rotors replace",0.7,60,2
+19,"break shoes replace",0.5,20,2
+20,"cooling system flush",2,80,1
+21,"CV boots replace",1,100,1
+22,"window motor & regulator replace",1.6,130,1
+23,"light body damage repair",3,0,3
+24,"severe body damage repair",6,0,3
+25,"emission test",0,19.99,4

@@ -1,0 +1,8 @@
+CREATE TABLE `mydb`.`tbl_vehicle_order` (
+	vehicle_order_id  int(11) AUTO_INCREMENT,
+	vehicle_id int(11) NOT NULL,
+	order_id int(11) NOT NULL,
+	PRIMARY KEY(vehicle_order_id),
+	FOREIGN KEY(vehicle_id) references tbl_vehicle(vehicle_id),
+	FOREIGN KEY(order_id) references tbl_order(order_id)
+);

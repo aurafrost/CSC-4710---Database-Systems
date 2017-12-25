@@ -1,0 +1,9 @@
+CREATE TABLE `mydb`.`Vehicle` (
+	vehicle_id  int(11) AUTO_INCREMENT,
+	VIN varchar(45),
+	year YEAR NOT NULL,
+	make varchar(45) NOT NULL,
+	model varchar(45) NOT NULL,
+	mileage int(11) NOT NULL,
+	PRIMARY KEY(vehicle_id)
+);

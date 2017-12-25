@@ -1,0 +1,12 @@
+CREATE TABLE `mydb`.`tbl_customer` (
+	customer_id  INT(11) AUTO_INCREMENT,
+	first_name varchar(45),
+	last_name varchar(45),
+	telephone varchar(45),
+	email varchar(45),
+	address varchar(255),
+	city varchar(45),
+	state varchar(45),
+	zip_code varchar(45),
+	PRIMARY KEY(customer_id)
+);

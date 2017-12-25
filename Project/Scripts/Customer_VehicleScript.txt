@@ -1,0 +1,8 @@
+CREATE TABLE `mydb`.`tbl_customer_vehicle` (
+	customer_vehicle_id  int(11) AUTO_INCREMENT,
+	customer_id int(11) NOT NULL,
+	vehicle_id int(11) NOT NULL,
+	PRIMARY KEY(customer_vehicle_id),
+	FOREIGN KEY(customer_id) references tbl_customer(customer_id),
+	FOREIGN KEY(vehicle_id) references tbl_vehicle(vehicle_id)
+);

@@ -1,0 +1,6 @@
+CREATE TABLE `mydb`.`tbl_order` (
+	order_id  int(11) AUTO_INCREMENT,
+	start_time datename NOT NULL,
+	end_time datename NOT NULL,
+	PRIMARY KEY(order_id),
+);
